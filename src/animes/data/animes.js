@@ -97,7 +97,7 @@ export const animes = [
         alias: "The Ogre",
         gender: "male",
         alive: true,
-        image: "/animes/yujiro-hanma.webp"
+        image: "/animes/yujiro-hanma.jpg"
     },
     {
         id: 11,

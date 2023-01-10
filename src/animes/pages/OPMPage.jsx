@@ -1,7 +1,10 @@
+import {CharacterList} from "../components";
+
 export const OPMPage = () => {
     return (
-        <>
-            <h1>OPMPage</h1>
-        </>
+        <div className="container mx-auto">
+            <h1 className="text-4xl font-bold text-center p-2">One Punch-Man</h1>
+            <CharacterList anime="One Punch-Man"/>
+        </div>
     );
 };

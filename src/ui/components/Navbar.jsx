@@ -15,7 +15,7 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="bg-slate-800 p-4 flex gap-3 align-middle">
+        <nav className="bg-slate-800 p-4 flex gap-3 items-center">
             <Link 
                 to="/animes"
                 className="text-2xl text-white font-bold"
