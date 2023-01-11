@@ -25,7 +25,7 @@ export const AnimePage = () => {
                 <h4 className="text-3xl font-bold my-4">{character.name}</h4>
                 <span className="text-2xl ml-6"><b>Anime:</b> {character.anime}</span>
                 <hr className="h-px my-2 bg-gray-300 border-0"/>
-                <span className="text-2xl ml-6"><b>Alias</b> {character.alias}</span>
+                <span className="text-2xl ml-6"><b>Alias:</b> {character.alias}</span>
                 <hr className="h-px my-2 bg-gray-300 border-0"/>
                 <span className="text-2xl ml-6"><b>Gender:</b> {character.gender}</span>
                 <hr className="h-px my-2 bg-gray-300 border-0"/>

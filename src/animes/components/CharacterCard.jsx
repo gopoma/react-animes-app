@@ -13,7 +13,7 @@ export const CharacterCard = ({character}) => {
             <div className="h-min flex flex-col gap-2">
                 <span><b>Anime:</b> {character.anime}</span>
                 <span><b>Name:</b> {character.name}</span>
-                <span><b>Alias</b> {character.alias}</span>
+                <span><b>Alias:</b> {character.alias}</span>
                 <Link
                     to={`/animes/${character.slug}`}
                     className="rounded-sm px-3 py-2 text-white font-bold text-center bg-slate-600 hover:bg-slate-800 transition-colors"
