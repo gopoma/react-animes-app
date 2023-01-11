@@ -63,7 +63,7 @@ export const animes = [
         id: 7,
         slug: "saitama",
         anime: "One Punch-Man",
-        name: "Sitama",
+        name: "Saitama",
         alias: "Caped Baldy",
         gender: "male",
         alive: true,

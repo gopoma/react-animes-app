@@ -1,4 +1,4 @@
-import {Routes, Route} from "react-router-dom";
+import {Navigate, Routes, Route} from "react-router-dom";
 import {PrivateRoute, PublicRoute} from "./";
 import {AuthRoutes} from "../auth";
 import {AnimesRoutes} from "../animes";
@@ -7,7 +7,7 @@ export const AppRoutes = () => {
     return (
         <>
             <Routes>
-                <Route path="" element={<h1>AnimeApp</h1>}/>
+                <Route path="" element={<Navigate to="/animes/baki"/>}/>
 
                 <Route path="auth/*" element={
                     <PublicRoute>
