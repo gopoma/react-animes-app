@@ -1,6 +1,6 @@
-export const CharacterItem = ({character}) => {
+export const CharacterCard = ({character}) => {
     return (
-        <article className="bg-slate-200 border-2 border-black p-2 lg:flex lg:gap-2 lg:items-center">
+        <article className="animate__animated animate__fadeIn bg-slate-200 border-2 border-black p-2 lg:flex lg:gap-2 lg:items-center">
             <div>
                 <img
                     src={character.image}
